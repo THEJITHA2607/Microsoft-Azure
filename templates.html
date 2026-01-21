@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Performance Prediction</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h2>AI-Based Student Performance Prediction</h2>
+
+    <form action="/predict" method="post">
+        <input type="number" name="study_hours" placeholder="Study Hours" required><br>
+        <input type="number" name="attendance" placeholder="Attendance (%)" required><br>
+        <input type="number" name="previous_score" placeholder="Previous Score" required><br>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
